@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''#!/bin/bash -e
 
-git clone https://github.com/keycloak/keycloak.git'''
+git clone --depth 1 https://github.com/keycloak/keycloak.git'''
       }
     }
   }
